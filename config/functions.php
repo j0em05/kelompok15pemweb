@@ -1,5 +1,5 @@
 <?php
-$conn =  mysqli_connect('sql304.epizy.com', 'epiz_33233323', 'ajgAbqyQhJTy', 'epiz_33233323_perpustakaanku') or die(mysqli_error($conn));
+$conn =  mysqli_connect('localhost', 'root', '', 'perpustakaanku') or die(mysqli_error($conn));
 
 function hitungmember()
 {
